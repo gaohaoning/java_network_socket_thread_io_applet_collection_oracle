@@ -1,0 +1,74 @@
+//		Person hehe=new Person();
+//		System.out.println(hehe);
+//		System.out.println(hehe.name);
+//		System.out.println(hehe.age);
+		
+//		int array[][]={{1,2,3,4,5},{6,7,8,9}};		
+//		System.out.println(array.length);
+//		System.out.println(array[0].length);
+//		System.out.println(array[1].length);
+		
+//		String x="a"+4+"c";
+//		System.out.println(x);
+//		
+//		String c="123";
+//		int i=Integer.parseInt(c)+3;
+//		System.out.println(i);
+//		
+//		long l=System.currentTimeMillis();
+//		System.out.println(l);
+//		
+//		System.out.println(System.getProperties());
+		
+//		Runtime run=Runtime.getRuntime();
+//		try
+//		{
+//			run.exec("notepad.exe");
+//			
+//		} catch (Exception e)
+//		{
+//			// TODO: handle exception
+//		}
+		
+//		Calendar c1=Calendar.getInstance();
+//		System.out.println(c1.get(c1.YEAR)+" "+(c1.get(c1.MONTH)+1)+" "+c1.get(c1.DATE));
+//		
+//		Random r=new Random();
+//		System.out.println(r.nextInt(100));
+		
+//		HashMap<String, Object> hm=new HashMap<String, Object>();
+//		hm.put("name", "Beckham");
+//		hm.put("age", "35");
+//		
+//		System.out.println(hm.get("name"));
+//		System.out.println(hm.get("age"));
+		
+//		File f=new File("C:\\Documents and Settings\\GDX\\×ÀÃæ\\java_file.txt");
+//		if(f.exists())
+//		{
+//			f.delete();			
+//		}
+//			
+//		else
+//		{
+//			try
+//			{
+//				f.createNewFile();				
+//			} catch (Exception e)
+//			{
+//				System.out.println(e.getMessage());
+//			}
+//			
+//		}
+//		
+//		System.out.println(f.getName());
+//		System.out.println(f.getPath());
+//		System.out.println(f.getAbsoluteFile());
+//		System.out.println(f.getAbsolutePath());
+//		System.out.println(f.getParent());
+//		System.out.println(f.exists());
+//		System.out.println(f.canRead());
+//		System.out.println(f.canWrite());
+//		System.out.println(f.isDirectory());
+//		System.out.println(f.lastModified());
+//		System.out.println(f.length());
